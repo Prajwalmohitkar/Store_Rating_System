@@ -1,0 +1,22 @@
+/Backend
+├── controllers/
+│   ├── adminController.js
+│   ├── authController.js
+│   └── storeController.js
+│   └── updatePassword.js
+├── middleware/
+│   └── authMiddleware.js
+├── routes/
+│   ├── adminRoutes.js
+│   ├── authRoutes.js
+│   ├── index.js
+│   └── storeRoutes.js
+├── .env
+├── .gitignore
+├── db.js
+├── package.json
+├── server.js
+└── database.sql
+
+$2b$10$iEuZj2M07AqZvnh5j2xF.eLY.cYL9zUcSxKh7mLzmDYsbZUkfO4La = MyNewPass@123(admin)
+mysql -u root -p < database.sql
